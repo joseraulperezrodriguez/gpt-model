@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+
+# Data & artifacts (regenerable from the bpe-tokenizer bridge)
+data/
+checkpoints/
+runs/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
